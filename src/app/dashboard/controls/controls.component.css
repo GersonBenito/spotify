@@ -1,0 +1,10 @@
+@import url('../../../colors/colors.css');
+
+footer{
+    height: 100%;
+    background: var(--black-secondary);
+}
+.container-controls{
+    height: 100%;
+    color: var(--white-primary);
+}

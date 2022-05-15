@@ -2,19 +2,17 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { SidebarComponent } from './components/sidebar/sidebar.component';
-import { ContainerPrimaryComponent } from './components/container-primary/container-primary.component';
-import { TracksComponent } from './components/tracks/tracks.component';
 import { AppRoutingModule } from './app.routing.module';
-import { ControlComponent } from './components/control/control.component';
+import { AccessWithEmailComponent } from './components/access-with-email/access-with-email.component';
+import { AccessWithSocialMediaComponent } from './components/access-with-social-media/access-with-social-media.component';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SidebarComponent,
-    ContainerPrimaryComponent,
-    TracksComponent, 
-    ControlComponent
+    LoginComponent,
+    AccessWithSocialMediaComponent,
+    AccessWithEmailComponent,
   ],
   imports: [
     BrowserModule,

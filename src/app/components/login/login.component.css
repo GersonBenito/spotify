@@ -1,0 +1,62 @@
+@import url('../../../colors/colors.css');
+
+.container-login{
+    display: grid;
+    grid-template-rows: 15% 85%;
+    height: 100vh;
+}
+
+nav{
+    border-bottom: 1px solid var(--gray-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav img{
+    width: 250px
+}
+
+.container-access{
+    display: grid;
+    grid-template-rows: 40% 5% 55%;
+    justify-items: center;
+}
+
+.access-social-media{
+    width: 40%;
+}
+
+.line{
+    height: 1px;
+    background: rgb(217, 218, 220);
+    border-radius: 50px;
+}
+
+.or{
+    display: grid;
+    grid-template-columns: 45% 10% 45%;
+    width: 40%;
+    align-items: center;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+.access-email{
+    width: 40%;
+}
+
+
+@media screen and (max-width: 768px){
+    .access-social-media{
+        width: 90%;
+    }  
+    
+    .or{
+        width: 90%;
+    }
+
+    .access-email{
+        width: 90%;
+    }
+}

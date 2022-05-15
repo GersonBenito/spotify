@@ -1,6 +1,10 @@
 :root{
     --success-primary: #1ed760;
+    --success-secondary: #169b45;
     --black-primary: #000;
+    --black-secondary: #181818;
     --white-primary: #fff;
-    --white-secondary: #b3b3b3;
+    --gray-primary: #b3b3b3;
+    --gray-secondary: #6a6a6a;
+    --blue-primary: rgb(59, 89, 152);
 }
