@@ -1,0 +1,14 @@
+.container-full{
+    display: grid;
+    grid-template-rows: 85% auto;
+    height: 100vh;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.container-primary{
+    background: #1976d2;
+}
