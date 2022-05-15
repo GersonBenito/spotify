@@ -1,4 +1,17 @@
+@import url('../../../colors/colors.css');
+
 .container-sidebar{
-    background: #00838f;
+    background: var(--black-primary);
+    color: var(--white-secondary);
     height: 100%;
+}
+
+.logo{
+    padding: 20px 24px;
+}
+
+.logo img{
+    width: 100%;
+    max-width: 131px;
+    height: 40px;
 }
