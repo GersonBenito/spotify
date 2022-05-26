@@ -28,7 +28,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 
 ## **Documentation** 
-for more information vist [Angular Documentation](https://angular.io/)
+for more information visit [Angular Documentation](https://angular.io/)
 
 
 
