@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-tracks',
@@ -7,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TracksComponent implements OnInit {
 
-  constructor() { }
+  constructor() { 
+    console.log('track');
+    
+    
+  }
 
   ngOnInit(): void {
   }

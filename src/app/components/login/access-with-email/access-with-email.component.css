@@ -1,4 +1,4 @@
-@import url('../../../colors/colors.css');
+@import url('../../../../colors/colors.css');
 
 .form-input{
     display: flex;
@@ -58,7 +58,7 @@ label{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('../../../assets/svg/checked.svg');
+    background-image: url('../../../../assets/svg/checked.svg');
     background-repeat: no-repeat;
     background-size: initial;
     background-position: center; 

@@ -2,7 +2,7 @@
 
 .container-sidebar{
     background: var(--black-primary);
-    color: var(--white-secondary);
+    color: var(--gray-primary);
     height: 100%;
 }
 
