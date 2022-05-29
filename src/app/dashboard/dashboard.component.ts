@@ -9,8 +9,6 @@ import { AuthenticationService } from 'src/services/authentication.service';
 })
 export class DashboardComponent implements OnInit {
 
-  public userData: object | any;
-
   constructor(
     private _authenticationService: AuthenticationService
   ) {
@@ -25,8 +23,7 @@ export class DashboardComponent implements OnInit {
     this._authenticationService.getUser(access_token).subscribe({
       next: response =>{
         // TODO: test
-        console.log('response', response);
-        this.userData = response;
+        this._authenticationService.$profile.next(response);
       },
       error: error =>{
         console.log('error', error);

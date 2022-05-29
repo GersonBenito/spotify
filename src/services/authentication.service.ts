@@ -14,6 +14,7 @@ export class AuthenticationService {
   private urlToken: string = env.spotify.urlToken;
   private urlBase: string = env.spotify.urlBase;
   private $url = new BehaviorSubject<string>('');
+  public $profile = new BehaviorSubject<object | any>({});
   private headersAuth = new HttpHeaders({
     'Content-type': 'application/x-www-form-urlencoded',
   });

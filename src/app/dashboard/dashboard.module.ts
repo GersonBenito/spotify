@@ -6,6 +6,9 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { ControlsComponent } from './controls/controls.component';
 import { TracksComponent } from './tracks/tracks.component';
 import { DashboardComponent } from './dashboard.component';
+import { ContainerComponent } from './container/container.component';
+import { NavbarComponent } from './container/navbar/navbar.component';
+import { ProfileComponent } from './container/profile/profile.component';
 
 
 @NgModule({
@@ -13,7 +16,10 @@ import { DashboardComponent } from './dashboard.component';
     SidebarComponent,
     ControlsComponent,
     TracksComponent,
-    DashboardComponent
+    DashboardComponent,
+    ContainerComponent,
+    NavbarComponent,
+    ProfileComponent
   ],
   imports: [
     CommonModule,

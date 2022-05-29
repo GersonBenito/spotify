@@ -15,3 +15,16 @@
     max-width: 131px;
     height: 40px;
 }
+
+.menu-options{
+    padding: 10px 24px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.option-menu{
+    display: flex;
+    gap: 16px;
+    margin-bottom: 20px;
+    align-items: center;
+    cursor: pointer;
+}
