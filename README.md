@@ -3,6 +3,7 @@
 ## Login
 
 ![login](/src/assets/img/login-spotify.png)
+![login](/src/assets/img/dashboard.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.4.
 
